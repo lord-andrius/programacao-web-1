@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <style>
+            td{
+               border: 1px solid black
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table style="border: 1px solid black">
+                <tr>
+                    <td>Numero:</td>
+                    <td><input type="number" min="100"></td>
+                </tr>
+                <tr>
+                    <td>Bandeira</td>
+                    <td>
+                        <input type="radio" name="bandeira" value="visa">
+                        <img style="vertical-align: top"src="./img/visa.jpg">
+                        <br>
+                        <input type="radio" name="bandeira" value="mastercard">
+                        <img style="vertical-align: top" src="./img/master.jpg">
+                        <br>
+                        <input type="radio" name="bandeira" value="american">
+                        <img style="vertical-align: top"src="./img/american.jpg">
+                        <br>
+                    </td>
+                </tr>       
+                <tr>
+                    <td><strong>Validade:</strong></td>
+                    <td>
+                        <select>
+                            <option>
+                                2012
+                            </option>
+                            <option>
+                                2013
+                            </option>
+                            <option>
+                                2014
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
