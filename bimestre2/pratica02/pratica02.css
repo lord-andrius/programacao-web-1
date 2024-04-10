@@ -1,0 +1,14 @@
+
+h1, p {
+    color: maroon;
+    font-family: 'Arial';
+}
+
+
+.alinha_centro {
+    text-align: center;
+}
+
+.alinha_direita {
+    text-align: right;
+}
