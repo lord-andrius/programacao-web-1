@@ -1,0 +1,39 @@
+h3 {
+    font-family: 'Arial';
+    color: #007e7e
+}
+
+h4 {
+    font-family: 'Arial';
+    color: #007e7e
+}
+
+
+hr {
+    background-color: #007e7e;
+    height: 2px;
+}
+
+.verde {
+    color:green
+}
+
+.azul {
+    color: blue
+}
+
+.roxo {
+    color: purple
+}
+
+.apache {
+    color: maroon
+}
+
+.cinza {
+    color: gray;
+}
+
+p.cinza {
+    text-align: center;
+}

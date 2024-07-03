@@ -1,0 +1,23 @@
+.corpo {
+    background-image: url("./img/fundo_final.jpg");
+    color: #ccBB99;
+}
+
+.titulo {
+    background-color: #ccBB99;
+    color: black;
+    text-align: right;
+}
+
+.paragrafo {
+    text-indent: 5%;
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.copyright {
+    background-color: #ccBB99;
+    font-style: italic;
+    color: black;
+}
